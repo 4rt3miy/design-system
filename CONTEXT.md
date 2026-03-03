@@ -78,7 +78,7 @@ These were established in `core/PRINCIPLES.md` and apply universally:
 
 ## What was intentionally left out
 
-- **No framework files** — the system is design-only (markdown + CSS). Next.js setup is the user's responsibility following README instructions. This keeps the system framework-agnostic for now while the team evaluates needs.
+- **No framework files** — the system is design-only (markdown + CSS). Each theme includes a `setup.sh` script that handles all wiring: shadcn init, component installation, font setup, and file copying. The vibecoder runs one curl command inside a fresh Next.js project and everything is configured.
 - **No demo page** — removed to avoid friction for the vibecoder persona
 - **No component code** beyond snippets in DESIGN.md — shadcn handles components, themes only configure them
 - **No fourth theme** — kept to three for the research phase. Expand after team feedback.
