@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git push origin master)",
+      "Bash(git branch -m master main)",
+      "Bash(git push -u origin main)",
+      "Bash(gh repo edit --default-branch main)",
+      "Bash(git push origin --delete master)",
+      "Bash(git checkout -b develop)",
+      "Bash(git push -u origin develop)"
+    ]
+  }
+}
