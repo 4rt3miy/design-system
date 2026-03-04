@@ -80,13 +80,13 @@ Pick one:
 
 ```bash
 # Conversational
-curl -s https://raw.githubusercontent.com/your-org/design-system/main/themes/conversational/setup.sh | bash
+curl -s https://raw.githubusercontent.com/4rt3miy/design-system/main/themes/conversational/setup.sh | bash
 
 # Vital
-curl -s https://raw.githubusercontent.com/your-org/design-system/main/themes/vital/setup.sh | bash
+curl -s https://raw.githubusercontent.com/4rt3miy/design-system/main/themes/vital/setup.sh | bash
 
 # Analytical
-curl -s https://raw.githubusercontent.com/your-org/design-system/main/themes/analytical/setup.sh | bash
+curl -s https://raw.githubusercontent.com/4rt3miy/design-system/main/themes/analytical/setup.sh | bash
 ```
 
 This installs shadcn, sets up the font, copies all theme files, and configures everything automatically.
